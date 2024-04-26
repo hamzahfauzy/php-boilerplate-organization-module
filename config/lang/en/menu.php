@@ -2,5 +2,6 @@
 
 return [
     'module_name' => 'Organization',
-    'organizations' => 'Organizations'
+    'organizations' => 'Organizations',
+    'organization_positions' => 'Positions',
 ];
