@@ -45,16 +45,28 @@ return [
             'label' => __('organization.label.name'),
             'type'  => 'text'
         ],
+        'record_type' => [
+            'label' => __('organization.label.record_type'),
+            'type'  => 'text'
+        ],
     ],
     
     'organization_user_positions' => [
-        'organization_user_id' => [
+        'user_name' => [
             'label' => __('organization.label.user'),
-            'type'  => 'options-obj:organization_users,id,user_id'
+            'type'  => 'text'
         ],
         'position_id' => [
             'label' => __('organization.label.position'),
             'type'  => 'options-obj:organization_positions,id,name'
+        ],
+        'start_at' => [
+            'label' => __('organization.label.start_at'),
+            'type'  => 'date'
+        ],
+        'end_at' => [
+            'label' => __('organization.label.end_at'),
+            'type'  => 'date'
         ],
     ]
 

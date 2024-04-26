@@ -1,7 +1,8 @@
 <?php 
 
 return [
-    'module_name' => 'Organization',
-    'organizations' => 'Organizations',
+    'module_name' => 'Organisasi',
+    'organizations' => 'Organisasi',
     'organization_positions' => 'Jabatan',
+    'employments' => 'Kepegawaian'
 ];

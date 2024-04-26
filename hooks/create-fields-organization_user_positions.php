@@ -8,6 +8,7 @@ $additionalClause = "";
 if(isset($_GET['filter']) && isset($_GET['filter']['organization_user_id']))
 {
     unset($fields['organization_user_id']);
+    unset($fields['user_name']);
     $organizationUser = $db->single('organization_users', [
         'id' => $_GET['filter']['organization_user_id']
     ]);

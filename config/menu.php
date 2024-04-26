@@ -9,5 +9,12 @@ return [
             'organization.organizations',
         ]
     ],
-    
+    [
+        'label' => 'organization.menu.employments',
+        'route' => routeTo('organization/employments/index'),
+        'icon'  => 'fa-fw fa-xl me-2 fa-solid fa-users',
+        'activeState' => [
+            'organization.organizations',
+        ]
+    ],
 ];

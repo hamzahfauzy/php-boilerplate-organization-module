@@ -11,6 +11,10 @@ return [
     'positions' => 'Jabatan',
     'position' => 'Jabatan',
     'user' => 'Pengguna',
+    'member' => 'Member',
     'record_type' => 'Tipe Record',
     'role' => 'Peran',
+
+    'start_at' => 'Awal Masa Jabatan',
+    'end_at' => 'Akhir Masa Jabatan',
 ];
