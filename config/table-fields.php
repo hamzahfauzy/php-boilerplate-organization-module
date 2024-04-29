@@ -68,6 +68,46 @@ return [
             'label' => __('organization.label.end_at'),
             'type'  => 'date'
         ],
+    ],
+    'organization_presences' => [
+        'organization_id' => [
+            'label' => __('organization.label.organization'),
+            'type'  => 'options-obj:organizations,id,name'
+        ],
+        'user_id' => [
+            'label' => __('organization.label.member'),
+            'type'  => 'options-obj:users,id,name'
+        ],
+        'record_type' => [
+            'label' => __('organization.label.record_type'),
+            'type'  => 'options:ATTENDANCE|LEAVES'
+        ],
+        'description' => [
+            'label' => __('organization.label.description'),
+            'type'  => 'textarea'
+        ],
+        'start_at' => [
+            'label' => __('organization.label.start_at'),
+            'type'  => 'datetime-local'
+        ],
+        'end_at' => [
+            'label' => __('organization.label.end_at'),
+            'type'  => 'datetime-local'
+        ],
+    ],
+    'organization_presence_media' => [
+        'file' => [
+            'label' => 'File',
+            'type'  => 'file'
+        ],
+        'status' => [
+            'label' => 'Status',
+            'type'  => 'options:PURPOSE|CONFIRMED|REJECTED'
+        ],
+        'updated_by' => [
+            'label' => __('organization.label.updated_by'),
+            'type'  => 'options-obj:users,id,name'
+        ]
     ]
 
 ];
