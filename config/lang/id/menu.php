@@ -9,4 +9,5 @@ return [
     'presences' => 'Kehadiran',
     'attendances' => 'Hadir',
     'leaves' => 'Izin / Cuti',
+    'positions' => 'Jabatan',
 ];

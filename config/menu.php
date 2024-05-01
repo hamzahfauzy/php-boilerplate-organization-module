@@ -10,6 +10,14 @@ return [
         ]
     ],
     [
+        'label' => 'organization.menu.positions',
+        'route' => routeTo('crud/index',['table' => 'organization_positions']),
+        'icon'  => 'fa-fw fa-xl me-2 fa-solid fa-user-tie',
+        'activeState' => [
+            'organization.organization_positions',
+        ]
+    ],
+    [
         'label' => 'organization.menu.member',
         'route' => routeTo('crud/index',['table' => 'organization_users']),
         'icon'  => 'fa-fw fa-xl me-2 fa-solid fa-users',

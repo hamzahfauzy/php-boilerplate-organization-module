@@ -37,10 +37,6 @@ return [
             'label' => __('organization.label.parent'),
             'type'  => 'options-obj:organization_positions,id,name'
         ],
-        'organization_id' => [
-            'label' => __('organization.label.organization'),
-            'type'  => 'options-obj:organizations,id,name'
-        ],
         'name' => [
             'label' => __('organization.label.name'),
             'type'  => 'text'

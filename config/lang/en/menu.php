@@ -9,4 +9,5 @@ return [
     'presences' => 'Presences',
     'attendances' => 'Attendances',
     'leaves' => 'Leaves',
+    'positions' => 'Positions',
 ];
