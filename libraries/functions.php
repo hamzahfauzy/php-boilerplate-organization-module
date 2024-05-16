@@ -2,7 +2,7 @@
 
 use Core\Database;
 
-\Modules\Default\Libraries\Sdk\Dashboard::add(organizationDashboardStatistic());
+\Modules\Default\Libraries\Sdk\Dashboard::add('organizationDashboardStatistic');
 
 function organizationDashboardStatistic()
 {
