@@ -31,15 +31,19 @@ return [
         'icon'  => 'fa-fw fa-xl me-2 fa-solid fa-clipboard-check',
         'activeState' => [
             'organization.organization_user_presences',
+            'organization.menu.attendances',
+            'organization.menu.leaves'
         ],
         'items' => [
             [
                 'label' => 'organization.menu.attendances',
                 'route' => routeTo('crud/index',['table' => 'organization_presences', 'filter' => ['record_type' => 'ATTENDANCE']]),
+                'activeState' => 'organization.menu.attendances'
             ],
             [
                 'label' => 'organization.menu.leaves',
                 'route' => routeTo('crud/index',['table' => 'organization_presences', 'filter' => ['record_type' => 'LEAVES']]),
+                'activeState' => 'organization.menu.leaves'
             ],
         ]
         
