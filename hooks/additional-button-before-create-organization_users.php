@@ -7,7 +7,7 @@
         <h5 class="modal-title" id="exampleModalLabel">Form Upload</h5>
       </div>
       <div class="modal-body">
-        <form action="<?=routeTo('organization/users/import', ['instrument_id' => $_GET['filter']['instrument_id']])?>" method="post" enctype="multipart/form-data">
+        <form action="<?=routeTo('organization/users/import')?>" method="post" enctype="multipart/form-data">
             <?= csrf_field() ?>
             <div class="form-group mb-3">
                 <label for="" class="mb-2">Sample File</label><br>
