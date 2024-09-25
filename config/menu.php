@@ -30,9 +30,7 @@ return [
         // 'route' => routeTo('crud/index',['table' => 'organization_users']),
         'icon'  => 'fa-fw fa-xl me-2 fa-solid fa-clipboard-check',
         'activeState' => [
-            'organization.organization_user_presences',
-            'organization.menu.attendances',
-            'organization.menu.leaves'
+            'organization.organization_presences',
         ],
         'items' => [
             [
