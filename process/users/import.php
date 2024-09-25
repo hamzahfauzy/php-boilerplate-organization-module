@@ -6,8 +6,6 @@ use PhpOffice\PhpSpreadsheet\Spreadsheet;
 
 $db = new Database;
 
-$instrument_id     = $_GET['instrument_id'];
-
 if (isset($_FILES['file'])) {
     $file = $_FILES['file'];
     
