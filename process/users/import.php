@@ -89,5 +89,5 @@ if (isset($_FILES['file'])) {
     set_flash_msg(['error'=> 'Silakan unggah file Excel atau CSV.']);
 }
 
-header('Location: '.routeTo('crud/index',['table' => 'assessment_questions', 'filter' => ['instrument_id' => $instrument_id] ]));
+header('Location: '.routeTo('crud/index',['table' => 'organization_users']));
 die();
