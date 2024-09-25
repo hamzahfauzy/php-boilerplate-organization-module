@@ -66,7 +66,7 @@ if (isset($_FILES['file'])) {
                 ]);
                 
                 // check position
-                $position = $db->single('organization_positions',['name' => $position, 'organization_id' => $organization->id]);
+                $position = $db->single('organization_positions',['name' => $position]);
                 if(!$position)
                 {
                     continue;
