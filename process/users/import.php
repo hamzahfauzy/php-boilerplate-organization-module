@@ -25,13 +25,13 @@ if (isset($_FILES['file'])) {
             $sheet = $spreadsheet->getActiveSheet();
     
             foreach ($sheet->getRowIterator(2) as $row) {
-                $name = $sheet->getCell('A' . $row->getRowIndex())->getValue();
-                $email = $sheet->getCell('B' . $row->getRowIndex())->getValue();
-                $organization = $sheet->getCell('C' . $row->getRowIndex())->getValue();
-                $position = $sheet->getCell('D' . $row->getRowIndex())->getValue();
-                $start_at = $sheet->getCell('E' . $row->getRowIndex())->getValue();
+                $name = $sheet->getCell('A' . $row->getRowIndex())->getFormattedValue();
+                $email = $sheet->getCell('B' . $row->getRowIndex())->getFormattedValue();
+                $organization = $sheet->getCell('C' . $row->getRowIndex())->getFormattedValue();
+                $position = $sheet->getCell('D' . $row->getRowIndex())->getFormattedValue();
+                $start_at = $sheet->getCell('E' . $row->getRowIndex())->getFormattedValue();
                 $start_at = date_parse($start_at);
-                $end_at = $sheet->getCell('F' . $row->getRowIndex())->getValue();
+                $end_at = $sheet->getCell('F' . $row->getRowIndex())->getFormattedValue();
                 $end_at = date_parse($end_at);
 
                 // check username
