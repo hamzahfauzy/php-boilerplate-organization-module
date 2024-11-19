@@ -24,4 +24,5 @@ return [
     'LEAVES' => 'Leaves',
     'updated_by' => 'Updated By',
     'organization_presence_media' => 'Presence File',
+    'file' => 'File'
 ];

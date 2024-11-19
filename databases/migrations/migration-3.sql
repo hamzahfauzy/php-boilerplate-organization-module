@@ -1,6 +1,6 @@
 CREATE TABLE organization_presences (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    organization_id INT NOT NULL,
+    organization_id INT DEFAULT NULL,
     user_id INT NOT NULL,
     record_type VARCHAR(100) NOT NULL,
     start_at DATETIME NOT NULL,

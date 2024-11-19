@@ -24,5 +24,5 @@ return [
     'LEAVES' => 'Izin / Cuti',
     'updated_by' => 'Diperbaharui Oleh',
     'organization_presence_media' => 'Berkas Kehadiran',
-    
+    'file' => 'Berkas'
 ];
